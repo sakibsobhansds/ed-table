@@ -265,10 +265,11 @@ table {
     }
     table.single-product-style tbody .ed-single-product .ed-product-title{
       display: flex;
+      gap: 15px;
     }
     table.single-product-style tbody .ed-single-product .ed-product-title:after{
       content: url(../assets/arrow.svg);
-      margin-left: 45px;
+      margin-left: auto;
       transition: .3s all;
     }
     table.single-product-style tbody .ed-single-product.collapse .ed-product-title:after{
