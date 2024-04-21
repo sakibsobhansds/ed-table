@@ -41,7 +41,7 @@ table {
   
   .ed-style-one tbody tr {
     border-top: 1px solid #cdcdcd;
-    transition: 0.4s;
+    transition: 0.3s;
   }
   .ed-style-one tbody tr:last-child {
     border-bottom: 1px solid #cdcdcd;
