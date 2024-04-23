@@ -7,6 +7,17 @@ body{
 table{
   margin-top: 100px;
 }
+p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+
 
 table {
     border-collapse: collapse;
@@ -641,6 +652,70 @@ table {
   border-color: #000;
   color: #fff;
 }
+
+.table-bottom-style-four{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.table-bottom-style-four .navigation{
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.table-bottom-style-four .navigation > *{
+  padding: 6px 14px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 40px;
+  cursor: pointer;
+  transition: .3s;
+}
+.table-bottom-style-four .navigation > *:hover{
+  background: #0A0A0A;
+  border-color: #0A0A0A;
+  color: #fff;
+}
+.table-bottom-style-four .navigation .page-number{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.table-bottom-style-four .pagination{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 991px) {
+  .table-bottom-style-four{
+    flex-direction: column;
+  }
+  .table-bottom-style-four .pagination{
+    justify-content: center;
+  }
+}
+.table-bottom-style-four .pagination a{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0 8px;
+}
+.table-bottom-style-four .pagination a.active{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+  color: #000000;
+}
+
 
 
 
