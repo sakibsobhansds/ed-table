@@ -722,9 +722,6 @@ table {
 
 
 
-
-
-
 /* style five */
 .ed-style-five thead {
   background: #FAF9F9;
@@ -879,6 +876,11 @@ table {
   gap: 14px;
   margin-top: 42px;
 }
+@media (max-width: 575px) {
+  .table-bottom-style-five{
+    gap: 7px;
+  }
+}
 .table-bottom-style-five button{
   width: 35px;
   height: 36px;
@@ -904,6 +906,198 @@ table {
 .table-bottom-style-five button:hover svg path{
   stroke: #fff;
 }
+
+
+
+
+
+
+
+/* style six */
+.ed-style-six thead {
+  border-bottom: 1px solid #CDCDCD
+}
+.ed-style-six thead tr th {
+  color: #1e1e1e;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 20px 20px 0;
+}
+
+.ed-style-six tbody tr:nth-child(even){
+  background: #F8F8F8;
+}
+@media (max-width: 991px) {
+  .ed-style-six tbody tr:nth-child(even){
+    background: transparent;
+  }
+}
+.ed-style-six tbody tr td{
+  padding: 0 20px 0 0;
+}
+
+.ed-style-six tbody tr td.ed-product-thumb .ed-product-thumb-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.ed-style-six tbody tr td.ed-product-thumb .ed-product-thumb-inner img{
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+@media (min-width: 992px) {
+  .ed-style-six tbody tr td.ed-product-thumb .ed-product-thumb-inner {
+    text-align: center;
+  }
+}
+.ed-style-six tbody tr td.ed-product-thumb .ed-product-thumb-inner .badge{
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background: #5E9C00;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 4px 6px;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+
+.ed-style-six tbody tr td.ed-product-title {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ed-style-six tbody tr td.ed-product-price {
+  color: #080f13;
+  font-weight: 700;
+}
+.ed-style-six tbody tr td.ed-product-price > * {
+  display: block;
+}
+.ed-style-six tbody tr td.ed-product-price > del {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FF2323;
+  opacity: 0.7;
+  margin-top: 7px;
+}
+@media (max-width: 991px) {
+  .ed-style-six.single-product-style tbody tr td.ed-product-price > del {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+.ed-style-six tbody tr td.ed-product-discount {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  color: #108D3B;
+}
+
+.ed-style-six tbody tr td.ed-product-description .quantity-inner{
+  border: 1px solid #00000033;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  overflow: hidden;
+}
+.ed-style-six tbody tr td.ed-product-description .quantity-inner button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  min-width: 30px;
+  transition: .3s;
+}
+.ed-style-six tbody tr td.ed-product-description .quantity-inner button:hover{
+  
+  background: #000;
+}
+.ed-style-six tbody tr td.ed-product-description .quantity-inner input{
+  width: 40px;
+  height: 100%;
+  border: none;
+  text-align: center;
+  padding: 0;
+  border-left: 1px solid #cdcdcd;
+  border-right: 1px solid #cdcdcd;
+}
+.ed-style-six tbody tr td.ed-product-description .quantity-inner input:focus-visible{
+  outline: none;
+}
+.ed-style-six tbody tr td.ed-product-description .quantity-inner input::-webkit-outer-spin-button,
+.ed-style-six tbody tr td.ed-product-description .quantity-inner input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ed-style-six tbody tr td.ed-product-description .quantity-inner input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.ed-style-six tbody tr td.ed-product-countdown .count-down {
+  display: flex;
+  gap: 14px;
+  text-align: center;
+}
+
+.ed-style-six tbody tr td.ed-product-countdown .count-down .number{
+  font-weight: 600;
+}
+
+.ed-style-six tbody tr td.ed-product-cart .addToCart button {
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.72px;
+  letter-spacing: 0.56px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Inter", sans-serif;
+  white-space: nowrap;
+  background: #0A0A0A;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.ed-style-six tbody tr td.ed-product-cart .addToCart button:hover {
+  color: #000000;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
