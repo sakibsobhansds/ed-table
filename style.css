@@ -707,6 +707,7 @@ table {
   line-height: 20px;
   color: rgba(0, 0, 0, 0.4);
   padding: 0 8px;
+  transition: .3s;
 }
 .table-bottom-style-four .pagination a.active{
   font-weight: 500;
@@ -716,6 +717,193 @@ table {
   color: #000000;
 }
 
+
+
+
+
+
+
+
+
+/* style five */
+.ed-style-five thead {
+  background: #FAF9F9;
+  box-shadow: 0px 2px 4px 0px #0000001C;
+  border-bottom: 1px solid #CDCDCD
+}
+.ed-style-five thead tr th {
+  color: #1e1e1e;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 32px 10px 30px 20px;
+}
+.ed-style-five thead tr th:first-child {
+  padding-left: 28px;
+}
+.ed-style-five thead tr .th-discount {
+  background: #5E9C001A;
+  text-align: center;
+  padding-right: 20px;
+}
+.ed-style-five tbody tr{
+  border-bottom: 1px solid #cdcdcd;
+}
+.ed-style-five tbody tr td{
+  padding: 20px 10px 20px 20px;
+}
+.ed-style-five tbody tr td:first-child{
+  padding-left: 28px;
+}
+
+.ed-style-five tbody tr td.ed-product-thumb .ed-product-thumb-inner {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background: #F5F8FB;
+  border: 1px solid #CDCDCD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.ed-style-five tbody tr td.ed-product-thumb .ed-product-thumb-inner img{
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+@media (min-width: 992px) {
+  .ed-style-five tbody tr td.ed-product-thumb .ed-product-thumb-inner {
+    text-align: center;
+  }
+}
+.ed-style-five tbody tr td.ed-product-thumb .ed-product-thumb-inner .badge{
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #5E9C00;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 5px 30px;
+  white-space: nowrap;
+}
+
+.ed-style-five tbody tr td.ed-product-title {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ed-style-five tbody tr td.ed-product-price {
+  color: #080f13;
+  font-weight: 700;
+}
+.ed-style-five tbody tr td.ed-product-price > * {
+  display: block;
+}
+.ed-style-five tbody tr td.ed-product-price > del {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FF2323;
+  opacity: 0.7;
+  margin-top: 7px;
+}
+@media (max-width: 991px) {
+  .ed-style-five.single-product-style tbody tr td.ed-product-price > del {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+.ed-style-five tbody tr td.ed-product-discount {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  color: #108D3B;
+  background: #5E9C001A;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.ed-style-five tbody tr td.ed-product-description {
+  color: #242424;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.164px;
+}
+
+.ed-style-five tbody tr td.ed-product-countdown .count-down {
+  display: flex;
+  gap: 14px;
+  text-align: center;
+  justify-content: center;
+}
+
+.ed-style-five tbody tr td.ed-product-countdown .count-down .number{
+  font-weight: 600;
+}
+
+.ed-style-five tbody tr td.ed-product-cart .addToCart button {
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.72px;
+  letter-spacing: 0.56px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Inter", sans-serif;
+  white-space: nowrap;
+  background: #0A0A0A;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.ed-style-five tbody tr td.ed-product-cart .addToCart button:hover {
+  color: #000000;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-bottom-style-five{
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 42px;
+}
+.table-bottom-style-five button{
+  width: 35px;
+  height: 36px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+}
+.table-bottom-style-five button.active, .table-bottom-style-five button:hover{
+  background:#000000;
+  color: #fff;
+}
+.table-bottom-style-five button.prev, .table-bottom-style-five button.next{
+  border-color: #000;
+}
+.table-bottom-style-five button svg path{
+  transition: .3s;
+}
+.table-bottom-style-five button:hover svg path{
+  stroke: #fff;
+}
 
 
 
