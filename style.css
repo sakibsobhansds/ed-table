@@ -928,7 +928,7 @@ table {
   background: #F8F8F8;
 }
 @media (max-width: 991px) {
-  .ed-style-six tbody tr:nth-child(even){
+  .ed-style-six.single-product-style tbody tr:nth-child(even){
     background: transparent;
   }
 }
