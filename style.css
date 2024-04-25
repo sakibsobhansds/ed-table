@@ -1216,7 +1216,7 @@ table {
     }
     table.single-product-style tbody .ed-single-product .ed-product-title{
       display: flex;
-      gap: 15px;
+      gap: 10px;
     }
     table.single-product-style tbody .ed-single-product .ed-product-title:after{
       content: url(../assets/arrow.svg);
